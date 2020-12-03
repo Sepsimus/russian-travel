@@ -291,7 +291,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
-    /* or 29px */    
+    /* or 29px */
     color: #FFFFFF;
     margin: 0;
     margin-bottom: 26px;
@@ -365,7 +365,7 @@
     top: 0px;
     left: 0px;
     width: 1184px;
-    height: 740px;    
+    height: 740px;
     z-index: 1;
     background-color:rgba(42, 44, 47, 0.3);
     transition: opacity 350ms easy;
@@ -845,8 +845,6 @@
     }
 
     .footer__list-link{
-        min-width: 74px;
-        height: 24px;
         min-width: 74px;
         height: 24px;
         margin: 0px 112px 32px 0px;
