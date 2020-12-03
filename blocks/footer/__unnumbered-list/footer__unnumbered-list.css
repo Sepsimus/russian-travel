@@ -1,0 +1,16 @@
+.footer__unnumbered-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 768px){
+
+    .footer__unnumbered-list{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+}

@@ -1,0 +1,4 @@
+.header__list:nth-of-type(1) .header__lang-link{
+    width: 30px;
+    text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+.footer__link{
+    width: 50px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+.footer__link:hover{
+    cursor: url(../../../image/Imported\ Layers\ Copy\ 4.png), pointer;
+}
+
+@media screen and (max-width: 1024px){
+
+    .footer__link{
+        width: 57px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .footer__link{
+        font-size: 24px;
+        line-height: 24px;
+        /* identical to box height, or 100% */
+    }
+}

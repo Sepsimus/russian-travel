@@ -1,0 +1,25 @@
+.header__lang-link{
+    margin-right: 18px;
+    width: 29px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px){
+
+    .header__lang-link{
+        margin-right: 18px;
+        width: 22px;
+        height: 20px;
+        font-size: 18px;
+        line-height: 20px;
+        /* identical to box height, or 111% */
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px){
+
+    .footer__list-link{
+        min-width: 74px;
+        margin: 0px 112px 32px 0px;
+    }
+
+    .footer__list-link:nth-last-child(1){
+        margin-bottom: 0px;
+    }
+}
