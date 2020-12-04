@@ -1,17 +1,14 @@
 .places{
     display: flex;
     flex-direction: column;
-    width: 984px;
-    max-height: 3392px;
+    max-width: 984px;
     margin: 92px auto 0px;
 }
 
 @media screen and (max-width: 1024px){
     
     .places{
-        width: 720px;
-        min-height: 2808px;
-        /*max-height: 2808px;*/
+        max-width: 720px;
         margin: 88px auto 0px;
     }
 }
@@ -19,8 +16,7 @@
 @media screen and (max-width: 768px){
 
     .places{
-        width: 320px;
-        max-height: 4784px;
+        max-width: 320px;
         margin: 64px auto 0px;
     }
        

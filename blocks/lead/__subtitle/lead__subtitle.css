@@ -1,5 +1,4 @@
 .lead__subtitle{
-    font-family: "Inter";
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -7,7 +6,7 @@
     /* or 120% */
     text-align: center;
     color: #FFFFFF;
-    width: 640px;
+    max-width: 640px;
     margin: 0px auto 64px;
 }
 
@@ -31,7 +30,7 @@
         font-size: 16px;
         line-height: 20px;
         /* or 120% */
-        width: 288px;
+        max-width: 288px;
         margin: 0px auto 40px;
     }
 }

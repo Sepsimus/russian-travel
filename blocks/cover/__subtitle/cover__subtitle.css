@@ -1,6 +1,5 @@
 .cover__subtitle{
-    width: 360px;
-    font-family: "Inter";
+    max-width: 360px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -8,36 +7,17 @@
     /* or 122% */
     text-align: center;
     color: #FFFFFF;
-    z-index: 2;
-    margin: 0px auto 245px;
     text-decoration: none;
-}
-
-.cover__subtitle:hover{
-    cursor: url(../../../image/Imported\ Layers\ Copy\ 4.png), pointer;
-}
-
-@media screen and (max-width: 1280px){
-
-    .cover__subtitle{
-        margin: 0px auto 195px;
-    }
-}
-
-@media screen and (max-width: 1024px){
-
-    .cover__subtitle{
-        margin: 0px auto 115px;
-    }
+    z-index: 3;
+    margin: 0px auto;
 }
 
 @media screen and (max-width: 768px){
 
     .cover__subtitle{
-        width: 288px;
+        max-width: 288px;
         font-size: 14px;
         line-height: 16px;
         /* or 114% */
-        margin: 0px auto 33px;
     }
 }

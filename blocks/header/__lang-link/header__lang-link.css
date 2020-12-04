@@ -1,7 +1,6 @@
 .header__lang-link{
     margin-right: 18px;
-    width: 29px;
-    font-family: "Inter";
+    max-width: 29px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -12,12 +11,14 @@
     color: #FFFFFF;
 }
 
+.header__lang-link:hover{
+    cursor: url(../../../image/Imported\ Layers\ Copy4.png), pointer;
+}
+
 @media screen and (max-width: 768px){
 
     .header__lang-link{
-        margin-right: 18px;
         width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
         /* identical to box height, or 111% */

@@ -1,6 +1,5 @@
 .footer__link{
-    width: 50px;
-    font-family: "Inter";
+    max-width: 50px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -12,13 +11,13 @@
 }
 
 .footer__link:hover{
-    cursor: url(../../../image/Imported\ Layers\ Copy\ 4.png), pointer;
+    cursor: url(../../../image/Imported\ Layers\ Copy4.png), pointer;
 }
 
 @media screen and (max-width: 1024px){
 
     .footer__link{
-        width: 57px;
+        max-width: 57px;
     }
 }
 

@@ -1,5 +1,4 @@
-.place__website_link{
-    font-family: "Inter";
+.place__link{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -9,6 +8,6 @@
     color: #FFFFFF;
 }
 
-.place__website_link:hover{
-    cursor: url(../../../../image/Imported\ Layers\ Copy\ 4.png), pointer;
+.place__link:hover{
+    cursor: url(../../../image/Imported\ Layers\ Copy4.png), pointer;
 }

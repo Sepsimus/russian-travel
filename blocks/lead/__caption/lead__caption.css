@@ -1,5 +1,4 @@
 .lead__caption{
-    font-family: "Inter";
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -7,15 +6,7 @@
     /* identical to box height, or 140% */
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    min-width: 158px;
     align-self: flex-start;
     margin-top: 8px;
     color: #FFFFFF;
-}
-
-@media screen and (max-width: 768px){
-
-    .lead__caption{
-        min-width: 158px;
-    }
 }

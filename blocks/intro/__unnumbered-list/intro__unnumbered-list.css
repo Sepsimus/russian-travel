@@ -1,5 +1,5 @@
 .intro__unnumbered-list{
-    width: 690px;
+    max-width: 690px;
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -10,13 +10,13 @@
 @media screen and (max-width: 1024px){
 
     .intro__unnumbered-list{
-        width: 720px;
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width: 768px){
 
     .intro__unnumbered-list{
-        width: 288px;
+        max-width: 288px;
     }
 }

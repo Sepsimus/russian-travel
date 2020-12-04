@@ -1,12 +1,11 @@
 .lead__title{
-    font-family: "Inter";
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     /* or 104% */
     text-align: center;
-    width: 720px;
+    max-width: 720px;
     margin: 0px auto 32px;
     color: #FFFFFF;
 }
@@ -17,7 +16,7 @@
         font-size: 40px;
         line-height: 44px;
         /* or 104% */
-        width: 288px;
+        max-width: 288px;
         margin: 0px auto 16px;
     }
 }

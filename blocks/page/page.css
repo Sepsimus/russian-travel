@@ -1,8 +1,6 @@
 .page{
+    margin: 0px auto;
     font-family: "Inter", "Arial", sans-serif;
-    background-color: #2A2C2F;
-    min-width: 320px;
-    min-height: 6875px;
-    max-height: 9630px;
+    max-width: 1280px;
     overflow-x: hidden;
 }
