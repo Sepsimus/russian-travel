@@ -51,5 +51,9 @@
 
     .place__paragraph:nth-of-type(2n){
         margin-bottom: 0px;
+    }       
+    
+    .places:nth-last-of-type(1) .place__paragraph{
+        margin: 0;
     }
 }

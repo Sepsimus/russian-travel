@@ -26,7 +26,7 @@
 
     .footer{
         flex-direction: column;
-        max-width: 186px;
+        max-width: max-content;
         margin: 64px auto 0px;
     }
 }

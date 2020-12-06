@@ -6,8 +6,10 @@
     /* identical to box height, or 122% */
     text-decoration-line: underline;
     color: #FFFFFF;
+    transition: opacity 0.35s easy 0s;
 }
 
 .place__link:hover{
     cursor: url(../../../image/Imported\ Layers\ Copy4.png), pointer;
+    opacity: 0.8;
 }
