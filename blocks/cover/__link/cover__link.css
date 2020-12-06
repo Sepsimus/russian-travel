@@ -22,7 +22,7 @@
     bottom: 0;
     opacity: 0.3;
     z-index: -1;
-    transition: opacity 0.35s easy 0s;
+    transition: opacity 0.35s ease 0s;
     background-color:rgb(42, 44, 47);
 }
 
@@ -49,7 +49,7 @@
     }
 }    
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
     .cover__link{
         min-height: 200px;

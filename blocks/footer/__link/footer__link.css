@@ -8,7 +8,7 @@
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 18px;
-    transition: opacity 0.35s easy 0s;
+    transition: opacity 0.35s ease 0s;
 }
 
 .footer__link:hover{
@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
     .footer__link{
         font-size: 24px;
